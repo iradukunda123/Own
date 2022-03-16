@@ -1,0 +1,57 @@
+[Wed Mar 09 09:43:40.927748 2022] [ssl:warn] [pid 9688:tid 396] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 09 09:43:41.010914 2022] [ssl:warn] [pid 9688:tid 396] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 09 09:43:41.087520 2022] [mpm_winnt:notice] [pid 9688:tid 396] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.27 configured -- resuming normal operations
+[Wed Mar 09 09:43:41.087520 2022] [mpm_winnt:notice] [pid 9688:tid 396] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Wed Mar 09 09:43:41.087520 2022] [core:notice] [pid 9688:tid 396] AH00094: Command line: 'c:\\own\\xamp\\apache\\bin\\httpd.exe -d C:/Own/Xamp/apache'
+[Wed Mar 09 09:43:41.095444 2022] [mpm_winnt:notice] [pid 9688:tid 396] AH00418: Parent: Created child process 76
+[Wed Mar 09 09:43:42.075937 2022] [ssl:warn] [pid 76:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 09 09:43:42.153030 2022] [ssl:warn] [pid 76:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 09 09:43:42.203649 2022] [mpm_winnt:notice] [pid 76:tid 620] AH00354: Child: Starting 150 worker threads.
+[Wed Mar 09 09:51:38.370587 2022] [php7:notice] [pid 76:tid 1880] [client ::1:50516] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_, referer: http://localhost/iduka/wp-admin/setup-config.php?step=1
+[Thu Mar 10 07:45:52.383272 2022] [ssl:warn] [pid 10864:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 10 07:45:52.430166 2022] [core:warn] [pid 10864:tid 624] AH00098: pid file C:/Own/Xamp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 10 07:45:52.445758 2022] [ssl:warn] [pid 10864:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 10 07:45:52.820668 2022] [mpm_winnt:notice] [pid 10864:tid 624] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.27 configured -- resuming normal operations
+[Thu Mar 10 07:45:52.820668 2022] [mpm_winnt:notice] [pid 10864:tid 624] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Thu Mar 10 07:45:52.820668 2022] [core:notice] [pid 10864:tid 624] AH00094: Command line: 'c:\\own\\xamp\\apache\\bin\\httpd.exe -d C:/Own/Xamp/apache'
+[Thu Mar 10 07:45:52.820668 2022] [mpm_winnt:notice] [pid 10864:tid 624] AH00418: Parent: Created child process 9344
+[Thu Mar 10 07:45:53.373594 2022] [ssl:warn] [pid 9344:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 10 07:45:53.485507 2022] [ssl:warn] [pid 9344:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 10 07:45:53.516797 2022] [mpm_winnt:notice] [pid 9344:tid 596] AH00354: Child: Starting 150 worker threads.
+[Thu Mar 10 07:52:34.450302 2022] [php7:warn] [pid 9344:tid 1848] [client ::1:49991] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\\Own\\Xamp\\htdocs\\iduka\\wp-admin\\includes\\plugin-install.php on line 183, referer: http://localhost/iduka/wp-admin/
+[Thu Mar 10 08:39:18.392238 2022] [php7:warn] [pid 9344:tid 1848] [client ::1:57062] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\Own\\Xamp\\htdocs\\iduka\\wp-includes\\script-loader.php:2699) in C:\\Own\\Xamp\\htdocs\\iduka\\wp-includes\\pluggable.php on line 1355, referer: http://localhost/iduka/wp-admin/admin.php?page=auxin-welcome&tab=importer
+[Thu Mar 10 08:39:18.392238 2022] [php7:warn] [pid 9344:tid 1848] [client ::1:57062] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\Own\\Xamp\\htdocs\\iduka\\wp-includes\\script-loader.php:2699) in C:\\Own\\Xamp\\htdocs\\iduka\\wp-includes\\pluggable.php on line 1358, referer: http://localhost/iduka/wp-admin/admin.php?page=auxin-welcome&tab=importer
+[Fri Mar 11 21:08:42.295757 2022] [ssl:warn] [pid 1528:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 11 21:08:42.944832 2022] [core:warn] [pid 1528:tid 460] AH00098: pid file C:/Own/Xamp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 11 21:08:42.951900 2022] [ssl:warn] [pid 1528:tid 460] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 11 21:08:45.040315 2022] [mpm_winnt:notice] [pid 1528:tid 460] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.27 configured -- resuming normal operations
+[Fri Mar 11 21:08:45.040315 2022] [mpm_winnt:notice] [pid 1528:tid 460] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Fri Mar 11 21:08:45.040315 2022] [core:notice] [pid 1528:tid 460] AH00094: Command line: 'c:\\own\\xamp\\apache\\bin\\httpd.exe -d C:/Own/Xamp/apache'
+[Fri Mar 11 21:08:45.056145 2022] [mpm_winnt:notice] [pid 1528:tid 460] AH00418: Parent: Created child process 1292
+[Fri Mar 11 21:08:46.639644 2022] [ssl:warn] [pid 1292:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 11 21:08:46.736498 2022] [ssl:warn] [pid 1292:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 11 21:08:46.790181 2022] [mpm_winnt:notice] [pid 1292:tid 596] AH00354: Child: Starting 150 worker threads.
+[Fri Mar 11 21:10:48.707611 2022] [php7:notice] [pid 1292:tid 1836] [client ::1:51235] Something went wrong while connecting (http://api.averta.net/rest/ara/v1/notifications?notification-space=26): cURL error 6: Could not resolve host: api.averta.net, referer: http://localhost/iduka/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fiduka%2Fwp-admin%2F&reauth=1
+[Tue Mar 15 08:41:08.948326 2022] [ssl:warn] [pid 4916:tid 92] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 15 08:41:09.010815 2022] [core:warn] [pid 4916:tid 92] AH00098: pid file C:/Own/Xamp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 15 08:41:09.010815 2022] [ssl:warn] [pid 4916:tid 92] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 15 08:41:09.495075 2022] [mpm_winnt:notice] [pid 4916:tid 92] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.27 configured -- resuming normal operations
+[Tue Mar 15 08:41:09.495075 2022] [mpm_winnt:notice] [pid 4916:tid 92] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Tue Mar 15 08:41:09.495075 2022] [core:notice] [pid 4916:tid 92] AH00094: Command line: 'c:\\own\\xamp\\apache\\bin\\httpd.exe -d C:/Own/Xamp/apache'
+[Tue Mar 15 08:41:09.495075 2022] [mpm_winnt:notice] [pid 4916:tid 92] AH00418: Parent: Created child process 6680
+[Tue Mar 15 08:41:10.182422 2022] [ssl:warn] [pid 6680:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 15 08:41:10.244898 2022] [ssl:warn] [pid 6680:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 15 08:41:10.291763 2022] [mpm_winnt:notice] [pid 6680:tid 600] AH00354: Child: Starting 150 worker threads.
+[Tue Mar 15 09:03:06.923551 2022] [php7:notice] [pid 6680:tid 1816] [client ::1:58712] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_, referer: http://localhost/rorix/wp-admin/setup-config.php?step=1
+[Tue Mar 15 09:10:50.575302 2022] [php7:warn] [pid 6680:tid 1920] [client ::1:59130] PHP Warning:  unlink(C:\\Users\\Robert\\AppData\\Local\\Temp/auxin-elements.2.9.4.zip): No such file or directory in C:\\Own\\Xamp\\htdocs\\rorix\\wp-admin\\includes\\class-wp-upgrader.php on line 333, referer: http://localhost/rorix/wp-admin/theme-install.php?search=phlo
+[Tue Mar 15 09:13:40.978879 2022] [php7:error] [pid 6680:tid 1864] [client ::1:59212] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\\Own\\Xamp\\htdocs\\rorix\\wp-includes\\Requests\\Transport\\cURL.php on line 484, referer: http://localhost/rorix/wp-admin/plugin-install.php?s=elementor&tab=search&type=term
+[Tue Mar 15 20:20:31.121683 2022] [ssl:warn] [pid 5268:tid 612] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 15 20:20:31.176748 2022] [core:warn] [pid 5268:tid 612] AH00098: pid file C:/Own/Xamp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 15 20:20:31.181474 2022] [ssl:warn] [pid 5268:tid 612] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 15 20:20:31.587261 2022] [mpm_winnt:notice] [pid 5268:tid 612] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.27 configured -- resuming normal operations
+[Tue Mar 15 20:20:31.587261 2022] [mpm_winnt:notice] [pid 5268:tid 612] AH00456: Apache Lounge VC15 Server built: Dec 23 2021 11:00:40
+[Tue Mar 15 20:20:31.587261 2022] [core:notice] [pid 5268:tid 612] AH00094: Command line: 'c:\\own\\xamp\\apache\\bin\\httpd.exe -d C:/Own/Xamp/apache'
+[Tue Mar 15 20:20:31.593239 2022] [mpm_winnt:notice] [pid 5268:tid 612] AH00418: Parent: Created child process 2728
+[Tue Mar 15 20:20:32.218469 2022] [ssl:warn] [pid 2728:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 15 20:20:32.277003 2022] [ssl:warn] [pid 2728:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 15 20:20:32.314277 2022] [mpm_winnt:notice] [pid 2728:tid 604] AH00354: Child: Starting 150 worker threads.
